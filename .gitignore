@@ -1,0 +1,18 @@
+# Datos originales y derivados voluminosos
+DatosOriginales/
+**/datos/**/*.csv
+**/datos/**/*.sav
+**/datos/**/*.dta
+**/datos/**/*.geojson
+
+# Archivos temporales de R
+.Rhistory
+.RData
+.RDataTmp
+.Ruserdata
+
+# Archivos del sistema y notebooks
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
