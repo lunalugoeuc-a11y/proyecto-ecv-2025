@@ -1,6 +1,6 @@
-# Datos necesarios
+# Required data
 
-Los microdatos y la cartografía no se distribuyen dentro de este repositorio. Descárgalos desde las fuentes oficiales y conserva esta estructura:
+The microdata and geographic files are not distributed in this repository. Download them from the official sources and preserve the following structure and original filenames:
 
 ```text
 datos/
@@ -14,6 +14,5 @@ datos/
     └── MGN_ADM_DPTO_POLITICO.geojson
 ```
 
-- Microdatos ECV 2025: <https://microdatos.dane.gov.co/index.php/catalog/905/get-microdata>
-- Cartografía: <https://geoportal.dane.gov.co/>
-
+- 2025 ECV microdata: <https://microdatos.dane.gov.co/index.php/catalog/905/get-microdata>
+- Geographic data: <https://geoportal.dane.gov.co/>
