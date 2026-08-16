@@ -1,42 +1,42 @@
-# Metodología cartográfica
+# Cartographic methodology
 
-## Fuente y alcance
+## Sources and scope
 
-- **Encuesta:** Encuesta Nacional de Calidad de Vida (ECV) 2025.
-- **Productor:** Departamento Administrativo Nacional de Estadística (DANE).
-- **Cartografía:** Marco Geoestadístico Nacional 2025, nivel departamental.
-- **Sistema de referencia:** WGS 84 transformado a MAGNA-SIRGAS (EPSG:4686).
+- **Survey:** 2025 National Quality of Life Survey (ECV).
+- **Producer:** National Administrative Department of Statistics (DANE), Colombia.
+- **Geographic framework:** 2025 National Geostatistical Framework, department level.
+- **Coordinate reference system:** WGS 84 transformed to MAGNA-SIRGAS (EPSG:4686).
 
-Los cálculos se realizan sobre la muestra sin aplicar el factor de expansión. Las comparaciones muestran patrones observados en la muestra y no totales poblacionales.
+Calculations were performed on the sample without applying expansion weights. Comparisons show patterns observed in the sample rather than population totals.
 
-## Mapas
+## Maps
 
-### 1. Inseguridad alimentaria grave
+### 1. Severe food insecurity
 
-- Variable: hogares donde algún miembro tuvo hambre sin poder comer durante los últimos 12 meses.
-- Clasificación: Jenks (cortes naturales).
-- Paleta: YlOrRd.
-- Justificación: permite distinguir departamentos con valores extremos dentro de una distribución asimétrica.
+- Variable: households in which at least one member experienced hunger without being able to eat during the previous 12 months.
+- Classification: Jenks natural breaks.
+- Palette: YlOrRd.
+- Rationale: distinguishes departments with extreme values within an asymmetric distribution.
 
-### 2. Acceso difícil a hospitales
+### 2. Difficulty accessing hospitals
 
-- Variable: hogares cuyo hospital más cercano está a más de 30 minutos caminando o no existe en el sector.
-- Clasificación: Jenks (cortes naturales).
-- Paleta: Blues.
-- Justificación: identifica grupos territoriales con diferencias claras en acceso.
+- Variable: households whose nearest hospital is more than a 30-minute walk away or does not exist in the area.
+- Classification: Jenks natural breaks.
+- Palette: Blues.
+- Rationale: identifies territorial groups with clear differences in access.
 
-### 3. Ingresos insuficientes
+### 3. Income insufficiency
 
-- Variable: hogares cuyos ingresos no cubren los gastos mínimos.
-- Clasificación: Jenks (cortes naturales).
-- Paleta: Purples.
-- Justificación: resalta agrupaciones departamentales con distintos niveles de insuficiencia.
+- Variable: households whose income does not cover minimum expenses.
+- Classification: Jenks natural breaks.
+- Palette: Purples.
+- Rationale: highlights department-level clusters with different degrees of income insufficiency.
 
-### 4. Satisfacción con la vida
+### 4. Life satisfaction
 
-- Variable: promedio de satisfacción con la vida para personas de 15 años o más.
-- Clasificación: Jenks (cortes naturales).
-- Paleta: RdYlGn.
-- Justificación: la escala observada es estrecha; el ajuste permite hacer visibles las diferencias territoriales y se declara explícitamente en el mapa.
+- Variable: average life-satisfaction score among people aged 15 and older.
+- Classification: Jenks natural breaks.
+- Palette: RdYlGn.
+- Rationale: the observed range is narrow; adjusting the scale makes territorial differences visible and is explicitly disclosed on the map.
 
-El archipiélago de San Andrés, Providencia y Santa Catalina no se representa a escala debido a su distancia respecto del territorio continental.
+The Archipelago of San Andrés, Providencia, and Santa Catalina is not displayed to scale because of its distance from mainland Colombia.
